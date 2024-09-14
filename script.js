@@ -70,3 +70,14 @@ function showSkill(skill) {
         }
     }
 }
+
+function toggleMenu() {
+    const menu = document.getElementById('menu');
+    if (menu.classList.contains('menu-fechado')) {
+      menu.classList.remove('menu-fechado');
+      menu.classList.add('menu-aberto');
+    } else {
+      menu.classList.remove('menu-aberto');
+      menu.classList.add('menu-fechado');
+    }
+}

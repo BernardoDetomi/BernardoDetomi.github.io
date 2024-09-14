@@ -6,6 +6,36 @@
     padding: 0;
 }
 
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    position: relative;
+}
+
+.menu-hamburguer {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+  
+.menu-aberto li a {
+    color: rgb(255, 255, 255); 
+}
+
+.menu-aberto li {
+    display: block;
+    font-size: 24px;
+}
+  
+.menu-fechado li {
+    display: none;
+    font-size: 24px;
+}
+
 body{
     background-color: #f0f8ff;
 }
